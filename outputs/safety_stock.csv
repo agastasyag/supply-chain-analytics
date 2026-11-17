@@ -1,0 +1,7 @@
+category,method,forecast_units_per_week,forecast_error_sd,safety_stock_units,reorder_point_units,safety_stock_weeks_of_demand
+Cleats,Long-run mean,513,44.2,103,1130,0.2
+Women's Apparel,Long-run mean,438,41.9,97,974,0.22
+Indoor/Outdoor Games,Long-run mean,403,38.9,91,896,0.22
+Cardio Equipment,Long-run mean,261,30.2,70,593,0.27
+Shop By Sport,Long-run mean,228,28.8,67,523,0.29
+Men's Footwear,Long-run mean,155,14.9,35,345,0.22

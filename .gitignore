@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+data/raw/
+# Large (51 MB) and rebuilt by src/export_powerbi.py
+outputs/powerbi/fact_order_items.csv
+outputs/forecast_backtest.csv
+*.pbix

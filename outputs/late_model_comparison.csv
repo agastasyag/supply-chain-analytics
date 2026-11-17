@@ -1,0 +1,6 @@
+model,accuracy,roc_auc,note
+Always predict late,0.5702751252718162,0.5,the majority class
+Shipping mode only,0.6939207714852983,0.7410066923693348,late if that mode was late more than half the time in training
+Shipping mode + ordered before/after noon,0.7223598373830008,0.7716121628325958,a two-fact rule
+"Gradient boosting, all order-time features",0.7207525763448993,0.7710482042639469,13 features known when the order is placed
+Leaky: plus actual shipping days,1.0,1.0,not usable: actual days are only known after delivery
